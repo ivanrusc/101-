@@ -12,12 +12,20 @@ sudo pip3 install docker-compose
 sudo systemctl enable docker
 docker run hello-world
 
+###
+mkdir /home/dios/docker/
+cd docker
+mkdir /home/dios/docker/nodered
+mkdir /home/dios/docker/nodered/node-red-data
+mkdir /home/dios/docker/grafana
+mkdir /home/dios/docker/grafana/data_grafana
+mkdir /home/dios/docker/grafana/data_influxdb
+nano /home/dios/docker/grafana/docker-compose.yml
+mkdir /home/dios/docker/duckdns
+nano /home/dios/docker/duckdns/docker-compose.yml
+nano docker-compose.yml
 
 ###
-mkdir docker
-cd docker
-mkdir nodered
-mkdir grafana
-mkdir duckdns
-nano docker-compose.yml
 docker-compose up -d
+docker ps -a
+docker ps
