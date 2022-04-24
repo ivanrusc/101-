@@ -13,16 +13,17 @@ sudo systemctl enable docker
 docker run hello-world
 
 ###
-mkdir /home/dios/docker/
+mkdir /home/pi/docker/
 cd docker
-mkdir /home/dios/docker/nodered
-mkdir /home/dios/docker/nodered/node-red-data
-mkdir /home/dios/docker/grafana
-mkdir /home/dios/docker/grafana/data_grafana
-mkdir /home/dios/docker/grafana/data_influxdb
-nano /home/dios/docker/grafana/docker-compose.yml
-mkdir /home/dios/docker/duckdns
-nano /home/dios/docker/duckdns/docker-compose.yml
+mkdir /home/pi/docker/nodered
+mkdir /home/pi/docker/nodered/node-red-data
+nano /home/pi/docker/nodered/docker-compose.yml
+mkdir /home/pi/docker/grafana
+mkdir /home/pi/docker/grafana/data_grafana
+mkdir /home/pi/docker/grafana/data_influxdb
+nano /home/pi/docker/grafana/docker-compose.yml
+mkdir /home/pi/docker/duckdns
+nano /home/pi/docker/duckdns/docker-compose.yml
 nano docker-compose.yml
 
 ###
