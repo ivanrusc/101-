@@ -1,0 +1,19 @@
+Install Raspberry Pi OS using Raspberry Pi Imager
+https://www.raspberrypi.com/software/
+
+El vostre Raspberry Pi necessita un sistema operatiu per funcionar. Això és tot. Raspberry Pi OS (anteriorment anomenat Raspbian) és el nostre sistema operatiu oficial compatible.
+
+Instal·leu el sistema operatiu Raspberry Pi amb Raspberry Pi Imager
+Raspberry Pi Imager és la manera ràpida i senzilla d'instal·lar el sistema operatiu Raspberry Pi i altres sistemes operatius a una targeta microSD, llesta per utilitzar-la amb el vostre Raspberry Pi. Mireu el nostre vídeo de 45 segons per saber com instal·lar un sistema operatiu amb Raspberry Pi Imager.
+Baixeu i instal·leu Raspberry Pi Imager a un ordinador amb un lector de targetes SD. Col·loqueu la targeta SD que utilitzareu amb el vostre Raspberry Pi al lector i executeu Raspberry Pi Imager.
+
+Linux         : https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
+Windows       : https://downloads.raspberrypi.org/imager/imager_latest.exe
+Mac           : https://downloads.raspberrypi.org/imager/imager_latest.dmg
+Raspberry Pi  : sudo apt install rpi-imager
+
+Imatges del sistema operatiu
+https://www.raspberrypi.com/software/operating-systems/
+Hi ha molts sistemes operatius disponibles per a Raspberry Pi, inclòs el sistema operatiu Raspberry Pi, el nostre sistema operatiu oficial compatible i sistemes operatius d'altres organitzacions.
+
+Raspberry Pi Imager és la manera ràpida i senzilla d'instal·lar un sistema operatiu a una targeta microSD llesta per utilitzar-la amb la vostra Raspberry Pi. També podeu triar entre els sistemes operatius següents, disponibles per descarregar i instal·lar manualment.
